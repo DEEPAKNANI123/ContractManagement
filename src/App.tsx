@@ -992,7 +992,7 @@ export default function App() {
   const groups = [...new Set(NAV.map(n => n.group))];
 
   return (
-    <div style={{ display:"flex", height:"100vh", fontFamily:"system-ui,sans-serif",
+    <div style={{ display:"flex", height:"100vh", width:"100%", fontFamily:"system-ui,sans-serif",
       background:"#F8FAFC", color:"#0B1F3A", fontSize:13, lineHeight:1.5 }}>
 
       {/* Sidebar */}
